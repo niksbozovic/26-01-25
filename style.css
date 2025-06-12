@@ -142,7 +142,7 @@ body {
 }
 
 .info {
-	width: auto;
+	width: 60vw;
 	height: auto;
 	position: relative;
 	display: grid;
@@ -248,5 +248,3 @@ body {
 	font-feature-settings: normal;
 	position: relative;
 }
-
-
