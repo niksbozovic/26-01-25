@@ -24,6 +24,10 @@ body {
   cursor: url('logo.png'),auto;
 }
 
+a:link {
+	text-decoration: none;
+}
+
 
 .logo-tl {
 	position: fixed;
@@ -130,7 +134,7 @@ body {
 
 .gif-cont {
 	max-width: 100%;
-	height: 75vh;
+	height: 100vh;
 	padding: 0px;
 	position: relative;
 }
@@ -142,7 +146,7 @@ body {
 }
 
 .info {
-	width: 60vw;
+	width: 40vw;
 	height: auto;
 	position: relative;
 	display: grid;
@@ -172,8 +176,6 @@ body {
 .info p {
 	width: auto;
 	height: auto;
-	min-width: 60%;
-	max-width: 80%;
 	z-index: 0;
 	font-family: "PPSupplyMonoRegular";
 	color: #000000;
@@ -190,13 +192,13 @@ body {
 	height: auto;
 	position: relative;
 	display: grid;
-	padding: 10px 50px;
+	padding: 50px;
 }
 
 .data-cont {
 	width: auto;
 	height: 25%;
-	padding: 10px 50px;
+	padding: 50px;
 	position: relative;
 }
 
@@ -370,3 +372,87 @@ body {
 .elements .button-white:hover p {
 	color: #FFFFFF;
 }
+
+.about-me {
+	width: 40vw;
+	height: auto;
+	position: relative;
+	display: grid;
+	padding: 0px;
+}
+
+.about-me-cont {
+	width: auto;
+	height: 25%;
+	padding: 50px;
+	position: relative;
+}
+
+.about-me h1 {
+	width: auto;
+	height: auto;
+	font-family: "PPSupplyMonoBold";
+	color: #ff0000;
+	font-size: 3rem;
+	letter-spacing: 0em;
+	line-height: 1;
+	font-feature-settings: normal;
+	position: relative;
+	text-align: left;
+}
+
+.about-me p {
+	width: auto;
+	height: auto;
+	z-index: 0;
+	font-family: "PPSupplyMonoRegular";
+	color: #000000;
+	font-size: 1rem;
+	letter-spacing: 0em;
+	text-align: left;
+	line-height: 1.2;
+	font-feature-settings: normal;
+	position: relative;
+}
+
+.about-me .button-white {
+	border-radius: 50px;
+	border: 2px solid #ff0000;
+	background: #FFF;
+  width: fit-content;
+  height: fit-content;
+  padding: 5px;
+  display: grid;
+	place-items: center;
+}
+
+.about-me .button-white p {
+	width: auto;
+	height: 10%;
+	z-index: 0;
+	font-family: "PPSupplyMonoRegular";
+	color: #ff0000;
+	font-size: 0.8rem;
+	letter-spacing: 0em;
+	text-align: center;
+	line-height: 1em;
+	font-feature-settings: normal;
+	position: relative;
+}
+
+.about-me .button-white-cont {
+	width: fit-content;
+	position: relative;
+}
+
+.about-me .button-white:hover {
+	border: 2px solid #ff0000;
+	background: #ff0000;	
+}
+
+.about-me .button-white:hover p {
+	color: #FFFFFF;
+}
+
+
+
