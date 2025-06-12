@@ -248,3 +248,77 @@ body {
 	font-feature-settings: normal;
 	position: relative;
 }
+
+.route {
+	display: flex;
+	width: 40vw;
+	height: auto;
+	align-items: flex-start;
+	align-content: flex-start;
+	gap: 20px;
+	flex-shrink: 0;
+	flex-wrap: wrap;
+}
+
+
+.button-white {
+	border-radius: 50px;
+	border: 2px solid #ff0000;
+	background: #FFF;
+  width: fit-content;
+  height: 3vh;
+  padding: 5px;
+  display: grid;
+	place-items: center;
+}
+
+.button-white-cont {
+	width: fit-content;
+	position: relative;
+}
+
+
+
+.button-white p {
+	width: auto;
+	height: 10%;
+	z-index: 0;
+	font-family: "PPSupplyMonoRegular";
+	color: #ff0000;
+	font-size: 1rem;
+	letter-spacing: 0em;
+	text-align: center;
+	line-height: 1.2;
+	font-feature-settings: normal;
+	position: relative;
+}
+
+.button-red {
+	border-radius: 50px;
+	border: 2px solid #ff0000;
+	background: #FF0000;
+  width: fit-content;
+  height: 3vh;
+  padding:5px;
+  display: grid;
+}
+
+.button-red-cont {
+	width: fit-content;
+	position: relative;
+	place-items: center;
+}
+
+.button-red p {
+	width: auto;
+	height: 10%;
+	z-index: 0;
+	font-family: "PPSupplyMonoRegular";
+	color: #FFFFFF;
+	font-size: 1rem;
+	letter-spacing: 0em;
+	text-align: center;
+	line-height: 1.2;
+	font-feature-settings: normal;
+	position: relative;
+}
