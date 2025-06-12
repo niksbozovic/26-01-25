@@ -251,7 +251,7 @@ body {
 
 .route {
 	display: flex;
-	width: 40vw;
+	width: 50vw;
 	height: auto;
 	align-items: flex-start;
 	align-content: flex-start;
@@ -323,7 +323,7 @@ body {
 
 .organisation {
 	display: flex;
-	width: 40vw;
+	width: 50vw;
 	height: auto;
 	align-items: flex-start;
 	align-content: flex-start;
