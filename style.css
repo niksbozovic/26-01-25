@@ -79,7 +79,7 @@ body {
 
 .title {
 	width: 100%;
-	height: 60vh;
+	height: 100vh;
 	position: relative;
 	display: grid;
 	place-items: center;
@@ -87,7 +87,7 @@ body {
 
 .title-cont {
 	width: 100%;
-	height: 30vh;
+	height: 25vh;
 	padding: 20px;
 	position: relative;
 }
@@ -107,7 +107,7 @@ body {
 
 .title h2 {
 	width: auto;
-	height: 10%;
+	height: auto;
 	min-width: 60px;
 	z-index: 0;
 	font-family: "PPSupplyMonoRegular";
