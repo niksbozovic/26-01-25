@@ -320,3 +320,19 @@ body {
 	font-feature-settings: normal;
 	position: relative;
 }
+
+.organisation {
+	display: flex;
+	width: 40vw;
+	height: auto;
+	align-items: flex-start;
+	align-content: flex-start;
+	gap: 20px;
+	flex-shrink: 0;
+	flex-wrap: wrap;
+}
+
+.organisation .button-red:hover {
+	border: 2px solid #000000;
+	background: #000000;	
+}
