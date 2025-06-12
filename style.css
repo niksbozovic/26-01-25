@@ -146,7 +146,7 @@ a:link {
 }
 
 .info {
-	width: 40vw;
+	width: 60vw;
 	height: auto;
 	position: relative;
 	display: grid;
@@ -374,7 +374,7 @@ a:link {
 }
 
 .about-me {
-	width: 40vw;
+	width: 60vw;
 	height: auto;
 	position: relative;
 	display: grid;
