@@ -82,7 +82,7 @@ a:link {
 }
 
 .title {
-	width: 100%;
+	width: 80vw;
 	height: 100vh;
 	position: relative;
 	display: grid;
@@ -90,7 +90,7 @@ a:link {
 }
 
 .title-cont {
-	width: 100%;
+	width: 80vw;
 	height: 25vh;
 	padding: 20px;
 	position: relative;
@@ -125,7 +125,7 @@ a:link {
 }
 
 .gif {
-	width: 100%;
+	width: 80vw;
 	height: 100vh;
 	position: relative;
 	display: grid;
@@ -133,16 +133,16 @@ a:link {
 }
 
 .gif-cont {
-	max-width: 100%;
+	width: 80vw;
 	height: 100vh;
-	padding: 0px;
+	padding: 10px;
 	position: relative;
 }
 
 .gif img {
 	width: 100%;
 	height: 100vh;
-	object-fit: cover;
+	object-fit: contain;
 }
 
 .info {
