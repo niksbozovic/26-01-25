@@ -334,6 +334,15 @@ a:link {
 	flex-wrap: wrap;
 }
 
+.organisation .button-group {
+	width: auto;
+	height: auto;
+	position: relative;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 20px;
+}
+
 .organisation .button-red:hover {
 	border: 2px solid #000000;
 	background: #000000;	
@@ -357,6 +366,15 @@ a:link {
 	gap: 20px;
 	flex-shrink: 0;
 	flex-wrap: wrap;
+}
+
+.elements .button-group {
+	width: auto;
+	height: auto;
+	position: relative;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 20px;
 }
 
 .elements .button-red:hover {
