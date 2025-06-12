@@ -266,7 +266,7 @@ body {
 	border: 2px solid #ff0000;
 	background: #FFF;
   width: fit-content;
-  height: 3vh;
+  height: fit-content;
   padding: 5px;
   display: grid;
 	place-items: center;
@@ -296,7 +296,7 @@ body {
 	border: 2px solid #ff0000;
 	background: #FF0000;
   width: fit-content;
-  height: 3vh;
+  height: fit-content;
   padding:5px;
   display: grid;
 }
