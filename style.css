@@ -251,7 +251,7 @@ body {
 
 .route {
 	display: flex;
-	width: 50vw;
+	width: 60vw;
 	height: auto;
 	align-items: flex-start;
 	align-content: flex-start;
@@ -323,7 +323,7 @@ body {
 
 .organisation {
 	display: flex;
-	width: 50vw;
+	width: 60vw;
 	height: auto;
 	align-items: flex-start;
 	align-content: flex-start;
@@ -335,4 +335,38 @@ body {
 .organisation .button-red:hover {
 	border: 2px solid #000000;
 	background: #000000;	
+}
+
+.organisation .button-white:hover {
+	border: 2px solid #ff0000;
+	background: #ff0000;	
+}
+
+.organisation .button-white:hover p {
+	color: #FFFFFF;
+}
+
+.elements {
+	display: flex;
+	width: 60vw;
+	height: auto;
+	align-items: flex-start;
+	align-content: flex-start;
+	gap: 20px;
+	flex-shrink: 0;
+	flex-wrap: wrap;
+}
+
+.elements .button-red:hover {
+	border: 2px solid #000000;
+	background: #000000;	
+}
+
+.elements .button-white:hover {
+	border: 2px solid #ff0000;
+	background: #ff0000;	
+}
+
+.elements .button-white:hover p {
+	color: #FFFFFF;
 }
