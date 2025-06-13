@@ -167,7 +167,7 @@ a:link {
 	height: fit-content;
 	font-family: "PPSupplyMonoBold";
 	color: #ff0000;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	letter-spacing: 0em;
 	line-height: 1;
 	font-feature-settings: normal;
@@ -210,7 +210,7 @@ a:link {
 	height: fit-content;
 	font-family: "PPSupplyMonoBold";
 	color: #ff0000;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	letter-spacing: 0em;
 	line-height: 1;
 	text-wrap: wrap;
@@ -225,17 +225,18 @@ a:link {
 	z-index: 0;
 	font-family: "PPSupplyMonoRegular";
 	color: #000000;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	letter-spacing: 0em;
 	text-align: left;
-	line-height: 1.2;
+	line-height: 1rem;
 	text-wrap: wrap;
 	font-feature-settings: normal;
 	position: relative;
 }
 
 .data .data-total h2 {
-	height: 0.8rem;
+	height: 1rem;
+	line-height: 1rem;
 }
 
 .data .data-total p {
@@ -249,7 +250,7 @@ a:link {
 	font-size: 0.8rem;
 	letter-spacing: 0em;
 	text-align: left;
-	line-height: 1.2;
+	line-height: 1rem;
 	font-feature-settings: normal;
 	position: relative;
 }
@@ -417,7 +418,7 @@ a:link {
 	height: fit-content;
 	font-family: "PPSupplyMonoBold";
 	color: #ff0000;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	letter-spacing: 0em;
 	line-height: 1;
 	font-feature-settings: normal;
