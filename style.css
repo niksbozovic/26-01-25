@@ -163,7 +163,7 @@ a:link {
 }
 
 .info h1 {
-	width: 40%;
+	width: 40vw;
 	height: auto;
 	font-family: "PPSupplyMonoBold";
 	color: #ff0000;
@@ -176,7 +176,7 @@ a:link {
 }
 
 .info p {
-	width: 40%;
+	width: 40vw;
 	height: auto;
 	z-index: 0;
 	font-family: "PPSupplyMonoRegular";
@@ -395,22 +395,22 @@ a:link {
 }
 
 .about-me {
-	width: 60vw;
+	width: 40vw;
 	height: auto;
 	position: relative;
 	display: grid;
-	padding: 0px;
+	padding: 10px;
 }
 
 .about-me-cont {
 	width: auto;
 	height: 25%;
-	padding: 50px;
+	padding: 10px;
 	position: relative;
 }
 
 .about-me h1 {
-	width: auto;
+	width: 40vw;
 	height: auto;
 	font-family: "PPSupplyMonoBold";
 	color: #ff0000;
@@ -423,7 +423,7 @@ a:link {
 }
 
 .about-me p {
-	width: auto;
+	width: 40vw;
 	height: auto;
 	z-index: 0;
 	font-family: "PPSupplyMonoRegular";
