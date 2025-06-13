@@ -206,7 +206,7 @@ a:link {
 
 .data h1 {
 	width: auto;
-	height: auto;
+	height: 40vw;
 	font-family: "PPSupplyMonoBold";
 	color: #ff0000;
 	font-size: 2rem;
@@ -219,9 +219,7 @@ a:link {
 
 .data h2 {
 	width: auto;
-	height: auto;
-	min-width: 60%;
-	max-width: 80%;
+	height: 40vw;
 	z-index: 0;
 	font-family: "PPSupplyMonoRegular";
 	color: #000000;
