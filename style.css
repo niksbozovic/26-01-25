@@ -152,18 +152,18 @@ a:link {
 	height: auto;
 	position: relative;
 	display: grid;
-	padding: 25px;
+	padding: 10px;
 }
 
 .info-cont {
 	width: auto;
 	height: 25%;
-	padding: 50px;
+	padding: 10px;
 	position: relative;
 }
 
 .info h1 {
-	width: auto;
+	width: 40%;
 	height: auto;
 	font-family: "PPSupplyMonoBold";
 	color: #ff0000;
@@ -176,7 +176,7 @@ a:link {
 }
 
 .info p {
-	width: auto;
+	width: 40%;
 	height: auto;
 	z-index: 0;
 	font-family: "PPSupplyMonoRegular";
@@ -194,19 +194,19 @@ a:link {
 	height: auto;
 	position: relative;
 	display: grid;
-	padding: 25px;
+	padding: 10px;
 }
 
 .data-cont {
 	width: auto;
 	height: 25%;
-	padding: 50px;
+	padding: 10px;
 	position: relative;
 }
 
 .data h1 {
-	width: auto;
-	height: 40vw;
+	width: 40vw;
+	height: auto;
 	font-family: "PPSupplyMonoBold";
 	color: #ff0000;
 	font-size: 2rem;
@@ -218,8 +218,8 @@ a:link {
 }
 
 .data h2 {
-	width: auto;
-	height: 40vw;
+	width: 40vw;
+	height: auto;
 	z-index: 0;
 	font-family: "PPSupplyMonoRegular";
 	color: #000000;
