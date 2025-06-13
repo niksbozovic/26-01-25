@@ -15,7 +15,7 @@ body {
 	display: grid;
 	grid-template-columns: auto;
 	place-items: center;
-	padding: 20px;
+	padding: 25px;
 	background-color: #ffffff;
 	overflow: visible;
 }
@@ -82,8 +82,9 @@ a:link {
 }
 
 .title {
+	top: 10vh;
 	width: 80vw;
-	height: 100vh;
+	height: 30vh;
 	position: relative;
 	display: grid;
 	place-items: center;
@@ -92,16 +93,17 @@ a:link {
 .title-cont {
 	width: 80vw;
 	height: 25vh;
-	padding: 20px;
+	padding: 10px;
 	position: relative;
 }
 
 .title h1 {
-	width: 100%;
-	height: 10%;
+	width: auto;
+	height: 2vh;
+	min-width: 60vw;
 	font-family: "PPSupplyMonoBold";
 	color: #000000;
-	font-size: 4rem;
+	font-size: 3rem;
 	letter-spacing: 0em;
 	line-height: 1;
 	font-feature-settings: normal;
@@ -112,11 +114,11 @@ a:link {
 .title h2 {
 	width: auto;
 	height: auto;
-	min-width: 60px;
+	min-width: 60vw;
 	z-index: 0;
 	font-family: "PPSupplyMonoRegular";
 	color: #ff0000;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	letter-spacing: 0em;
 	text-align: center;
 	line-height: 1;
@@ -140,7 +142,7 @@ a:link {
 }
 
 .gif img {
-	width: 100%;
+	width: 80vw;
 	height: 100vh;
 	object-fit: contain;
 }
@@ -150,7 +152,7 @@ a:link {
 	height: auto;
 	position: relative;
 	display: grid;
-	padding: 50px;
+	padding: 25px;
 }
 
 .info-cont {
@@ -165,7 +167,7 @@ a:link {
 	height: auto;
 	font-family: "PPSupplyMonoBold";
 	color: #ff0000;
-	font-size: 3rem;
+	font-size: 2rem;
 	letter-spacing: 0em;
 	line-height: 1;
 	font-feature-settings: normal;
@@ -179,7 +181,7 @@ a:link {
 	z-index: 0;
 	font-family: "PPSupplyMonoRegular";
 	color: #000000;
-	font-size: 1rem;
+	font-size: 0.8rem;
 	letter-spacing: 0em;
 	text-align: left;
 	line-height: 1.2;
@@ -192,7 +194,7 @@ a:link {
 	height: auto;
 	position: relative;
 	display: grid;
-	padding: 50px;
+	padding: 25px;
 }
 
 .data-cont {
@@ -207,7 +209,7 @@ a:link {
 	height: auto;
 	font-family: "PPSupplyMonoBold";
 	color: #ff0000;
-	font-size: 3rem;
+	font-size: 2rem;
 	letter-spacing: 0em;
 	line-height: 1;
 	font-feature-settings: normal;
@@ -223,7 +225,7 @@ a:link {
 	z-index: 0;
 	font-family: "PPSupplyMonoRegular";
 	color: #000000;
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	letter-spacing: 0em;
 	text-align: left;
 	line-height: 1.2;
@@ -243,7 +245,7 @@ a:link {
 	z-index: 0;
 	font-family: "PPSupplyMonoRegular";
 	color: #ff0000;
-	font-size: 1rem;
+	font-size: 0.8rem;
 	letter-spacing: 0em;
 	text-align: left;
 	line-height: 1.2;
@@ -268,27 +270,28 @@ a:link {
 	border: 2px solid #ff0000;
 	background: #FFF;
   width: fit-content;
-  height: fit-content;
-  padding: 5px;
+  height: auto;
+  padding: 5px 25px;
   display: grid;
 	place-items: center;
 }
 
 .button-white-cont {
 	width: fit-content;
+	height: auto;
 	position: relative;
 }
 
 .button-white p {
-	width: auto;
-	height: 10%;
+	width: fit-content;
+	height: auto;
 	z-index: 0;
 	font-family: "PPSupplyMonoRegular";
 	color: #ff0000;
-	font-size: 0.8rem;
+	font-size: 0.6rem;
 	letter-spacing: 0em;
 	text-align: center;
-	line-height: 0;
+	line-height: 1rem;
 	font-feature-settings: normal;
 	position: relative;
 }
@@ -298,27 +301,29 @@ a:link {
 	border: 2px solid #ff0000;
 	background: #FF0000;
   width: fit-content;
-  height: fit-content;
-  padding:5px;
+  height: auto;
+  padding:5px 25px;
   display: grid;
+  place-items: center;
 }
 
 .button-red-cont {
 	width: fit-content;
+	height: auto;
 	position: relative;
 	place-items: center;
 }
 
 .button-red p {
 	width: auto;
-	height: 10%;
+	height: auto;
 	z-index: 0;
 	font-family: "PPSupplyMonoRegular";
 	color: #FFFFFF;
-	font-size: 0.8rem;
+	font-size: 0.6rem;
 	letter-spacing: 0em;
 	text-align: center;
-	line-height: 0;
+	line-height: 1rem;
 	font-feature-settings: normal;
 	position: relative;
 }
@@ -336,7 +341,7 @@ a:link {
 
 .organisation .button-group {
 	width: auto;
-	height: auto;
+	height: fit-content;
 	position: relative;
 	display: grid;
 	grid-template-columns: auto auto;
@@ -411,7 +416,7 @@ a:link {
 	height: auto;
 	font-family: "PPSupplyMonoBold";
 	color: #ff0000;
-	font-size: 3rem;
+	font-size: 2rem;
 	letter-spacing: 0em;
 	line-height: 1;
 	font-feature-settings: normal;
@@ -425,7 +430,7 @@ a:link {
 	z-index: 0;
 	font-family: "PPSupplyMonoRegular";
 	color: #000000;
-	font-size: 1rem;
+	font-size: 0.8rem;
 	letter-spacing: 0em;
 	text-align: left;
 	line-height: 1.2;
@@ -439,7 +444,7 @@ a:link {
 	background: #FFF;
   width: fit-content;
   height: fit-content;
-  padding: 5px;
+  padding: 5px 20px;
   display: grid;
 	place-items: center;
 }
