@@ -173,6 +173,7 @@ a:link {
 	font-feature-settings: normal;
 	position: relative;
 	text-align: left;
+	text-wrap: wrap;
 }
 
 .info p {
@@ -212,6 +213,7 @@ a:link {
 	font-size: 2rem;
 	letter-spacing: 0em;
 	line-height: 1;
+	text-wrap: wrap;
 	font-feature-settings: normal;
 	position: relative;
 	text-align: left;
@@ -227,6 +229,7 @@ a:link {
 	letter-spacing: 0em;
 	text-align: left;
 	line-height: 1.2;
+	text-wrap: wrap;
 	font-feature-settings: normal;
 	position: relative;
 }
@@ -420,6 +423,7 @@ a:link {
 	font-feature-settings: normal;
 	position: relative;
 	text-align: left;
+	text-wrap: wrap;
 }
 
 .about-me p {
