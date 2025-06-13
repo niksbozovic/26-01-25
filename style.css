@@ -164,7 +164,7 @@ a:link {
 
 .info h1 {
 	width: 40vw;
-	height: auto;
+	height: fit-content;
 	font-family: "PPSupplyMonoBold";
 	color: #ff0000;
 	font-size: 2rem;
@@ -206,7 +206,7 @@ a:link {
 
 .data h1 {
 	width: 40vw;
-	height: auto;
+	height: fit-content;
 	font-family: "PPSupplyMonoBold";
 	color: #ff0000;
 	font-size: 2rem;
@@ -219,7 +219,7 @@ a:link {
 
 .data h2 {
 	width: 40vw;
-	height: auto;
+	height: fit-content;
 	z-index: 0;
 	font-family: "PPSupplyMonoRegular";
 	color: #000000;
@@ -411,7 +411,7 @@ a:link {
 
 .about-me h1 {
 	width: 40vw;
-	height: auto;
+	height: fit-content;
 	font-family: "PPSupplyMonoBold";
 	color: #ff0000;
 	font-size: 2rem;
