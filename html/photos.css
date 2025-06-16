@@ -1,0 +1,234 @@
+@font-face {
+  font-family: PPSupplyMonoBold;
+  src: url('../fonts/PPSupplyMono-Bold.woff2') format('woff2');
+  font-weight: 700;
+}
+
+@font-face {
+	font-family: PPSupplyMonoRegular;
+	src: url('../fonts/PPSupplyMono-Regular.woff2') format('woff2');
+	font-weight: 200;
+}
+
+body {
+	width: auto;
+	display: grid;
+	grid-template-columns: auto;
+	place-items: center;
+	padding: 25px;
+	background-color: #ffffff;
+	overflow: visible;
+}
+
+body {
+  cursor: url('logo.png'),auto;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+
+.logo-tl {
+	position: fixed;
+	top: 50px;
+	left: 50px;
+	width: min-content;
+	height: min-content;
+	overflow: visible;
+	z-index: 1;
+	padding: 0px;
+	gap: 20px;
+	border-radius: 0px 0px 0px 0px;
+}
+
+.logo-tr {
+	position: fixed;
+	right: 50px;
+	top: 50px;
+	width: min-content;
+	height: min-content;
+	z-index: 1;
+	padding: 0px;
+	gap: 20px;
+	border-radius: 0px 0px 0px 0px;
+}
+
+.logo-bl {
+	position: fixed;
+	left: 50px;
+	bottom: 50px;
+	width: min-content;
+	height: min-content;
+	overflow: visible;
+	z-index: 1;
+	padding: 0px;
+	align-content: center;
+	gap: 20px;
+	border-radius: 0px 0px 0px 0px;
+}
+
+.logo-br {
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	width: min-content;
+	height: min-content;
+	overflow: visible;
+	z-index: 1;
+	padding: 0px;
+	gap: 20px;
+	border-radius: 0px 0px 0px 0px;
+}
+
+.data {
+	width: auto;
+	height: auto;
+	position: relative;
+	display: grid;
+	padding: 10px;
+}
+
+.data-cont {
+	width: auto;
+	height: 25%;
+	padding: 10px;
+	position: relative;
+}
+
+.button-white {
+	border-radius: 50px;
+	border: 2px solid #ff0000;
+	background: #FFF;
+  width: fit-content;
+  height: auto;
+  padding: 5px 25px;
+  display: grid;
+	place-items: center;
+}
+
+.button-white-cont {
+	width: fit-content;
+	height: auto;
+	position: relative;
+}
+
+.button-white p {
+	width: fit-content;
+	height: auto;
+	z-index: 0;
+	font-family: "PPSupplyMonoRegular";
+	color: #ff0000;
+	font-size: 0.6rem;
+	letter-spacing: 0em;
+	text-align: center;
+	line-height: 1rem;
+	font-feature-settings: normal;
+	position: relative;
+}
+
+.button-hl {
+	border-radius: 50px;
+	border: 2px solid #000;
+	background: #000;
+  width: fit-content;
+  height: auto;
+  padding: 5px 25px;
+  display: grid;
+	place-items: center;
+}
+
+.button-hl p {
+	width: fit-content;
+	height: auto;
+	z-index: 0;
+	font-family: "PPSupplyMonoRegular";
+	color: #fff;
+	font-size: 0.6rem;
+	letter-spacing: 0em;
+	text-align: center;
+	line-height: 1rem;
+	font-feature-settings: normal;
+	position: relative;
+}
+
+.header {
+	display: flex;
+	width: 60vw;
+	height: auto;
+	align-items: flex-start;
+	align-content: flex-start;
+	gap: 20px;
+	flex-shrink: 0;
+	flex-wrap: wrap;
+}
+
+.header {
+	display: flex;
+	width: 60vw;
+	height: auto;
+	align-items: flex-start;
+	align-content: flex-start;
+	gap: 20px;
+	flex-shrink: 0;
+	flex-wrap: wrap;
+}
+
+.header .button-white:hover {
+	border: 2px solid #ff0000;
+	background: #ff0000;	
+}
+
+.header .button-white:hover p {
+	color: #FFFFFF;
+}
+
+.header .button-hl:hover {
+	border: 2px solid #ff0000;
+	background: #ff0000;	
+}
+
+.grid .photo-grid img{
+  width:: fit-content;
+  height: auto;
+  object-fit: cover;
+}
+
+.grid {
+  position: relative;
+  display: grid;
+}
+
+.header .button-hl:hover p {
+	color: #FFFFFF;
+}
+
+@media screen and (max-width: 700px) {
+	.grid .photo-grid {
+	  display:grid;
+	  grid-template-columns: auto;
+	  grid-row-gap: 20px;
+	  grid-column-gap: 20px;
+	}
+
+	.grid img{
+	  width: 80vw;
+	  justify-content: center;
+	  align-items: center;
+	}
+}
+    
+@media screen and (min-width: 701px) {
+	.grid .photo-grid {
+	  display:grid;
+	  grid-template-columns: auto auto auto;
+	  grid-row-gap: 20px;
+	  grid-column-gap: 20px;
+	}
+
+	.grid img{
+	  width: 25vw;
+	  justify-content: center;
+	  align-items: center;
+	}
+}
