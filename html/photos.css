@@ -21,7 +21,7 @@ body {
 }
 
 body {
-  cursor: url('logo.png'),auto;
+  cursor: url('../logo.png'),auto;
 }
 
 a:link {
